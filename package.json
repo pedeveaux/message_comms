@@ -1,0 +1,19 @@
+{
+  "name": "message_comms",
+  "version": "1.0.0",
+  "description": "Javascrip messaging with RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "author": "Paul Deveaux",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "mocha": "^8.1.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.5"
+  }
+}
